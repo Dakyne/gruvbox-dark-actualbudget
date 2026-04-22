@@ -1,10 +1,10 @@
 :root {
-  --color-pageBackground: #282828;
+  --color-pageBackground: #1d2021;
   --color-pageBackgroundModalActive: #1d2021;
-  --color-pageBackgroundTopLeft: #282828;
+  --color-pageBackgroundTopLeft: #1d2021;
   --color-pageBackgroundBottomRight: #1d2021;
   --color-pageBackgroundLineTop: #3c3836;
-  --color-pageBackgroundLineMid: #282828;
+  --color-pageBackgroundLineMid: #1d2021;
   --color-pageBackgroundLineBottom: #1d2021;
   --color-pageText: #ebdbb2;
   --color-pageTextLight: #d5c4a1;
@@ -16,7 +16,7 @@
   --color-cardBackground: #32302f;
   --color-cardBorder: #504945;
   --color-cardShadow: rgba(0, 0, 0, 0.5);
-  --color-tableBackground: #282828;
+  --color-tableBackground: #1d2021;
   --color-tableRowBackgroundHover: #3c3836;
   --color-tableText: #ebdbb2;
   --color-tableTextLight: #d5c4a1;
@@ -42,7 +42,7 @@
   --color-sidebarItemAccentSelected: #fabd2f;
   --color-sidebarItemText: #d5c4a1;
   --color-sidebarItemTextSelected: #fabd2f;
-  --color-menuBackground: #282828;
+  --color-menuBackground: #1d2021;
   --color-menuItemBackground: #3c3836;
   --color-menuItemBackgroundHover: #504945;
   --color-menuItemText: #ebdbb2;
@@ -59,13 +59,13 @@
   --color-menuAutoCompleteTextHeader: #fabd2f;
   --color-menuAutoCompleteItemTextHover: #fbf1c7;
   --color-menuAutoCompleteItemText: #d5c4a1;
-  --color-modalBackground: #282828;
+  --color-modalBackground: #1d2021;
   --color-modalBorder: #504945;
   --color-mobileHeaderBackground: #1d2021;
   --color-mobileHeaderText: #ebdbb2;
   --color-mobileHeaderTextSubdued: #928374;
   --color-mobileHeaderTextHover: rgba(250, 189, 47, 0.15);
-  --color-mobilePageBackground: #282828;
+  --color-mobilePageBackground: #1d2021;
   --color-mobileNavBackground: #1d2021;
   --color-mobileNavItem: #a89984;
   --color-mobileNavItemSelected: #fabd2f;
@@ -73,7 +73,7 @@
   --color-mobileAccountText: #ebdbb2;
   --color-mobileTransactionSelected: #fabd2f;
   --color-mobileViewTheme: #1d2021;
-  --color-mobileConfigServerViewTheme: #282828;
+  --color-mobileConfigServerViewTheme: #1d2021;
   --color-markdownNormal: #83a598;
   --color-markdownDark: #458588;
   --color-markdownLight: #d5c4a1;
@@ -105,7 +105,7 @@
   --color-buttonNormalSelectedText: #282828;
   --color-buttonNormalSelectedBackground: #fabd2f;
   --color-buttonNormalDisabledText: #7c6f64;
-  --color-buttonNormalDisabledBackground: #282828;
+  --color-buttonNormalDisabledBackground: #1d2021;
   --color-buttonNormalDisabledBorder: #3c3836;
   --color-buttonBareText: #ebdbb2;
   --color-buttonBareTextHover: #fbf1c7;
@@ -118,7 +118,7 @@
   --color-calendarBackground: #1d2021;
   --color-calendarItemText: #d5c4a1;
   --color-calendarItemBackground: #3c3836;
-  --color-calendarSelectedBackground: #fabd2f;
+  --color-calendarSelectedBackground: #504945;
   --color-noticeBackground: #32302f;
   --color-noticeBackgroundLight: #3c3836;
   --color-noticeBackgroundDark: #98971a;
@@ -184,9 +184,9 @@
   --color-noteTagDefault: #d5c4a1;
   --color-noteTagText: #ebdbb2;
   --color-budgetOtherMonth: #1d2021;
-  --color-budgetCurrentMonth: #282828;
+  --color-budgetCurrentMonth: #1d2021;
   --color-budgetHeaderOtherMonth: #1d2021;
-  --color-budgetHeaderCurrentMonth: #282828;
+  --color-budgetHeaderCurrentMonth: #1d2021;
   --color-floatingActionBarBackground: #1d2021;
   --color-floatingActionBarBorder: #504945;
   --color-floatingActionBarText: #ebdbb2;
@@ -194,4 +194,18 @@
   --color-tooltipBackground: #32302f;
   --color-tooltipBorder: #504945;
   --color-calendarCellBackground: #3c3836;
+
+  /* Money amounts (budget/transactions/to-budget/templates) */
+  --color-numberPositive: #b8bb26;
+  --color-numberNegative: #fb4934;
+  --color-numberNeutral: #ebdbb2;
+  --color-budgetNumberZero: #928374;
+  --color-budgetNumberNeutral: #ebdbb2;
+  --color-budgetNumberPositive: #ebdbb2;
+  --color-budgetNumberNegative: #fb4934;
+  --color-templateNumberFunded: #b8bb26;
+  --color-templateNumberUnderFunded: #fe8019;
+  --color-toBudgetPositive: #b8bb26;
+  --color-toBudgetZero: #b8bb26;
+  --color-toBudgetNegative: #fb4934;
 }
